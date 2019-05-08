@@ -1,0 +1,376 @@
+├─Data Import Template
+│  │  Excel_Debit_Credit.txt
+│  │  Format convert.txt
+│  │  Text format convert.txt
+│  │  
+│  ├─for RDIT - CN
+│  │  ├─业务
+│  │  │      31 普通日记帐.xlsx
+│  │  │      32 销售订单.xlsx
+│  │  │      33 销售订单（仅过帐）.xlsx
+│  │  │      34 采购订单.xlsx
+│  │  │      35 采购订单（仅过帐）.xlsx
+│  │  │      36 普通发票.xlsx
+│  │  │      37 发票日记账.xlsx
+│  │  │      38 付款日记账（应收）.xlsx
+│  │  │      39 付款日记账（应付）.xlsx
+│  │  │      40 生产订单.xlsx
+│  │  │      41 物料其它出入库.xlsx
+│  │  │      42 物料盘点.xlsx
+│  │  │      
+│  │  ├─主体数据
+│  │  │      01 编号规则.xlsx
+│  │  │      02 会计科目表.xlsx
+│  │  │      03 财务维度值.xlsx
+│  │  │      04 币种汇率.xlsx
+│  │  │      05 固定资产.xlsx
+│  │  │      06 客户.xlsx
+│  │  │      07 客户 (无地址、联系人).xlsx
+│  │  │      08 全球通讯簿.xlsx
+│  │  │      09 价格折扣.xlsx
+│  │  │      10 供应商.xlsx
+│  │  │      11 供应商（无地址、联系信息）.xlsx
+│  │  │      12 全球通讯簿.xlsx
+│  │  │      13 价格折扣.xlsx
+│  │  │      14 产品和基础产品.xlsx
+│  │  │      15 产品属性.xlsx
+│  │  │      16 产品变形.xlsx
+│  │  │      17 已批核物料供应商.xlsx
+│  │  │      18 产品图像.xlsx
+│  │  │      19 物料清单.xlsx
+│  │  │      20 工艺线路.xlsx
+│  │  │      21 员工.xlsx
+│  │  │      
+│  │  └─期初期末余额
+│  │          22 总帐科目余额.xlsx
+│  │          23 固定资产余值.xlsx
+│  │          24 银行帐户余额.xlsx
+│  │          25 库存余额.xlsx
+│  │          26 未结供应商发票.xlsx
+│  │          27 未结客户发票.xlsx
+│  │          28 未结销售订单.xlsx
+│  │          29 未结采购订单.xlsx
+│  │          30 未结生产订单.xlsx
+│  │          
+│  └─for RDIT - EN
+│      ├─Business
+│      │      31 General journal.xlsx
+│      │      32 Sales orders.xlsx
+│      │      33 Sales orders (post only).xlsx
+│      │      34 Purchase orders.xlsx
+│      │      35 Purchase orders (post only).xlsx
+│      │      36 Free text invoices.xlsx
+│      │      37 Invoice journal.xlsx
+│      │      38 Payment journal (AR).xlsx
+│      │      39 Payment journal (AP).xlsx
+│      │      40 Production orders.xlsx
+│      │      41 Item movement .xlsx
+│      │      42 Item counting.xlsx
+│      │      
+│      ├─Ending balance , Opening balance
+│      │      22 Ledger account balance.xlsx
+│      │      23 Fixed assets balance.xlsx
+│      │      24 Bank account balance.xlsx
+│      │      25 Inventory balance.xlsx
+│      │      26 Open vendor invoices.xlsx
+│      │      27 Open customer invoices.xlsx
+│      │      28 Sales orders.xlsx
+│      │      29 Purchase orders.xlsx
+│      │      30 Production orders.xlsx
+│      │      
+│      └─Master data
+│              01 Number sequence (sample).xlsx
+│              01 Number sequence.xlsx
+│              02 Chart of accounts.xlsx
+│              03 Financial dimension values.xlsx
+│              04 Currency exchange rates.xlsx
+│              05 Fixed assets.xlsx
+│              06 Customers.xlsx
+│              07 Customers (without addit. info.).xlsx
+│              08 Global address book (customer).xlsx
+│              09 Price and discount (sales).xlsx
+│              10 Vendors.xlsx
+│              11 Vendors (without addit. info.).xlsx
+│              12 Global address book (vendor).xlsx
+│              13 Price and discount (purchase).xlsx
+│              14 Products and product masters.xlsx
+│              15 Product attributes.xlsx
+│              16 Product variants.xlsx
+│              17 Product approved vendors.xlsx
+│              18 Product image.xlsx
+│              19 Bills of materials.xlsx
+│              20 Routes.xlsx
+│              21 Workers.xlsx
+│              
+├─End User Template
+│  │  Region code.xlsx
+│  │  User Security Matrix.xlsx
+│  │  
+│  ├─End User Template
+│  │  │  01 Legal Entities.xlsx
+│  │  │  03 Number Sequence Format.xlsx
+│  │  │  05 Currency Std. Exch. Rate.xlsx
+│  │  │  06 Fiscal Year&Calendar.xlsx
+│  │  │  07 Date Intervals.xlsx
+│  │  │  09 Financial Dimension.xlsx
+│  │  │  10 Chart of accounts.xlsx
+│  │  │  12 Account Structure.xlsx
+│  │  │  13 Posting System Account.xlsx
+│  │  │  14 Ledger Journal Name.xlsx
+│  │  │  15 Bank Account.xlsx
+│  │  │  16 Tax Code & Group.xlsx
+│  │  │  17 GL&Bank  Moudle Parameter.xlsx
+│  │  │  19 Value Model.xlsx
+│  │  │  20 Depr. Book.xlsx
+│  │  │  21-22 Group& Fixed Asset & Posting.xlsx
+│  │  │  23 FA Moudle Parameter.xlsx
+│  │  │  27 29 Payment Term & Fee &Method.xlsx
+│  │  │  28 Delivery Term&Mode&Carrier.xlsx
+│  │  │  30 Charge.xlsx
+│  │  │  31-33 Customer master.xlsx
+│  │  │  32 37 Global address book.xlsx
+│  │  │  34 AR&Sales Moudle Parameter.xlsx
+│  │  │  36-38 Vendor master.xlsx
+│  │  │  39 AP&Purchase Moudle Parameter.xlsx
+│  │  │  41 Site&Warehouse Structure.xlsx
+│  │  │  47 Product Category.xlsx
+│  │  │  48 Item master.xlsx
+│  │  │  48 Service item master - for quotation.xlsx
+│  │  │  49 Product attributes.xlsx
+│  │  │  50 Product variants.xlsx
+│  │  │  51 Product approved vendors.xlsx
+│  │  │  53 Cost category.xlsx
+│  │  │  54 Resource.xlsx
+│  │  │  56 Bills of materials.xlsx
+│  │  │  57 Safety stock (In MPS).xlsx
+│  │  │  57 Safety stock.xlsx
+│  │  │  58 Inventory Journal Name.xlsx
+│  │  │  59 Inventory Parameter.xlsx
+│  │  │  60-62 Item Price&Discount(Trade agreement & Std. Cost).xlsx
+│  │  │  63 Inventory Posting Profile.xlsx
+│  │  │  68 Workers.xlsx
+│  │  │  69 Expense Category.xlsx
+│  │  │  70 Payment Method.xlsx
+│  │  │  CRM001 Responsibilities.xlsx
+│  │  │  CRM002 Sales unit _ team.xlsx
+│  │  │  Item Posting Profiles_rev1.xlsx
+│  │  │  PSA Warranty group.xlsx
+│  │  │  SUPP Supplementary item.xlsx
+│  │  │  UOM (Unit).xlsx
+│  │  │  
+│  │  ├─CRM History data
+│  │  │      CRM01_Prospect_Lead_GlobalAddressBook.xlsx
+│  │  │      CRM02_Opportunity_ItemList.xlsx
+│  │  │      
+│  │  ├─Current financial year trans
+│  │  │      00 Currency exchange rates.xlsx
+│  │  │      10 Purchase orders (post only).xlsx
+│  │  │      11 Sales orders (post only).xlsx
+│  │  │      12 Free text invoices.xlsx
+│  │  │      13 Invoice journal.xlsx
+│  │  │      14 General journal.xlsx
+│  │  │      15 Purchase orders.xlsx
+│  │  │      16 Sales orders.xlsx
+│  │  │      17 Payment journal (AP).xlsx
+│  │  │      18 Payment journal (AR).xlsx
+│  │  │      19 Production orders.xlsx
+│  │  │      20 Item movement .xlsx
+│  │  │      21 Item counting.xlsx
+│  │  │      
+│  │  └─Opening balance
+│  │          00 Currency exchange rates.xlsx
+│  │          01 Ledger account balance.xlsx
+│  │          02 Bank account balance.xlsx
+│  │          03 Inventory balance.xlsx
+│  │          04 Open customer invoices.xlsx
+│  │          05 Open vendor invoices.xlsx
+│  │          06 Purchase Order _ Receipted.xlsx
+│  │          07 Sales Order_ Delivered.xlsx
+│  │          08 Purchase Order _ Create.xlsx
+│  │          09 Sales Order _ Create.xlsx
+│  │          FA Fixed assets balance.xlsx
+│  │          PROD Production orders.xlsx
+│  │          
+│  ├─End User Template CHN RDIT
+│  │  ├─业务
+│  │  │      31 普通日记帐.xlsx
+│  │  │      32 销售订单.xlsx
+│  │  │      33 销售订单（仅过帐）.xlsx
+│  │  │      34 采购订单.xlsx
+│  │  │      35 采购订单（仅过帐）.xlsx
+│  │  │      36 普通发票.xlsx
+│  │  │      37 发票日记账.xlsx
+│  │  │      38 付款日记账（应收）.xlsx
+│  │  │      39 付款日记账（应付）.xlsx
+│  │  │      40 生产订单.xlsx
+│  │  │      41 物料其它出入库.xlsx
+│  │  │      42 物料盘点.xlsx
+│  │  │      
+│  │  ├─主体数据
+│  │  │      01 编号规则.xlsx
+│  │  │      02 会计科目表.xlsx
+│  │  │      03 财务维度值.xlsx
+│  │  │      04 币种汇率.xlsx
+│  │  │      05 固定资产.xlsx
+│  │  │      06 客户.xlsx
+│  │  │      07 客户 (无地址、联系人).xlsx
+│  │  │      08 全球通讯簿.xlsx
+│  │  │      09 价格折扣.xlsx
+│  │  │      10 供应商.xlsx
+│  │  │      11 供应商（无地址、联系信息）.xlsx
+│  │  │      12 全球通讯簿.xlsx
+│  │  │      13 价格折扣.xlsx
+│  │  │      14 产品和基础产品.xlsx
+│  │  │      15 产品属性.xlsx
+│  │  │      16 产品变形.xlsx
+│  │  │      17 已批核物料供应商.xlsx
+│  │  │      18 产品图像.xlsx
+│  │  │      19 物料清单.xlsx
+│  │  │      20 工艺线路.xlsx
+│  │  │      21 员工.xlsx
+│  │  │      
+│  │  └─期初期末余额
+│  │          22 总帐科目余额.xlsx
+│  │          23 固定资产余值.xlsx
+│  │          24 银行帐户余额.xlsx
+│  │          25 库存余额.xlsx
+│  │          26 未结供应商发票.xlsx
+│  │          27 未结客户发票.xlsx
+│  │          28 未结销售订单.xlsx
+│  │          29 未结采购订单.xlsx
+│  │          30 未结生产订单.xlsx
+│  │          
+│  ├─End User Template CHN Simple
+│  │      01 财务维度值.xlsx
+│  │      02 会计科目表.xlsx
+│  │      03 银行帐户.xlsx
+│  │      04 税种.xlsx
+│  │      05 客户.xlsx
+│  │      06 客户地址与联系方式.xlsx
+│  │      07 供应商.xlsx
+│  │      08 供应商地址与联系方式.xlsx
+│  │      09 产品和基础产品.xlsx
+│  │      10 产品变形.xlsx
+│  │      11 采购价.xlsx
+│  │      12 销售价.xlsx
+│  │      13 付款条件.xlsx
+│  │      14 交货条件与方式.xlsx
+│  │      15 订单费用.xlsx
+│  │      16 员工.xlsx
+│  │      
+│  └─End User Template ENG Simple
+│      │  Data Migration Requirements.xlsx
+│      │  
+│      ├─Basic data
+│      │      01 Legal Entities.xlsx
+│      │      02 Number sequence.xlsx
+│      │      03 Currency Std. Exch. Rate.xlsx
+│      │      04 Fiscal Year&Calendar.xlsx
+│      │      06 Ledger Journal Name.xlsx
+│      │      08 Payment Term&Method.xlsx
+│      │      09 Delivery Term&Mode.xlsx
+│      │      10 Site&Warehouse Structure.xlsx
+│      │      11 Workers.xlsx
+│      │      12 Posting Rule.xlsx
+│      │      
+│      ├─Master data
+│      │      13 Chart of account&Financial Dimension.xlsx
+│      │      14 Customer Master&Customer Group.xlsx
+│      │      15 Cust_Additional_Info.xlsx
+│      │      16 Vendor Master&Vendor Group.xlsx
+│      │      17 Vend_Additional_Info.xlsx
+│      │      18 Item-BOM-Price.xlsx
+│      │      FA01 Fixed assets &Group.xlsx
+│      │      
+│      └─Openning balance
+│          │  19 Inventory balance.xlsx
+│          │  20 GL_AR_AP Balance.xlsx
+│          │  21 Outstanding PO_Template.xlsx
+│          │  22 Outstanding SO_Template.xlsx
+│          │  FA02 Fixed assets balance.xlsx
+│          │  OB_STEPS_TEMP.xlsx
+│          │  
+│          └─Old
+│                  19 Inventory balance.xlsx
+│                  20 GL_AR_AP_BANK Balance.xlsx
+│                  21 Outstanding PO_Template.xlsx
+│                  22 Outstanding SO_Template.xlsx
+│                  FA02 Fixed assets balance.xlsx
+│                  OB_STEPS_TEMP.xlsx
+│                  
+├─Manual
+│  │  AX 2012 Configration Flow.xlsx
+│  │  AX2012R2快速数据导入工具箱手册-中文草稿.docx
+│  │  
+│  └─Demo
+│      │  AX2012R2快速数据导入工具箱亮点演示(基础版).mp4
+│      │  AX2012R2快速数据导入工具箱手册-演示预览版.pdf
+│      │  AX2012R2快速数据导入工具箱自定义模板高级功能Part 1.mp4
+│      │  AX2012R2快速数据导入工具箱自定义模板高级功能Part 2.mp4
+│      │  
+│      ├─RDIT快速数据导入演示文件
+│      │  ├─标准模板
+│      │  │      14 Products and product masters.xlsx
+│      │  │      14 产品和基础产品.xlsx
+│      │  │      
+│      │  └─自定义模板(演示视频)
+│      │      │  Customer.xlsx
+│      │      │  ExternalItemId.xlsx
+│      │      │  Posting.xlsx
+│      │      │  ProductTran.xlsx
+│      │      │  
+│      │      └─en-us
+│      │              Customer.xlsx
+│      │              Posting.xlsx
+│      │              
+│      ├─中文版截图
+│      │      01 主界面.jpg
+│      │      02 参数.jpg
+│      │      03 参数.jpg
+│      │      04 普通日记帐.jpg
+│      │      05 销售订单.jpg
+│      │      06 全球通讯簿.jpg
+│      │      07 标准模板扩展字段.jpg
+│      │      08 用户自定义模板.jpg
+│      │      09 用户自定义模板-表格.jpg
+│      │      10 用户自定义模板-字段.jpg
+│      │      11 用户自定义模板-支持的数据来源.jpg
+│      │      12 生成的自定义模板.jpg
+│      │      13 生成的自定义模板.jpg
+│      │      14 使用自定义模板导入.jpg
+│      │      15 表格复制.jpg
+│      │      16 标准模板-产品 中文.jpg
+│      │      17 标准模板-产品 英文.jpg
+│      │      18 标准模板-客户 中文.jpg
+│      │      19 标准模板-价格与折扣 中文.jpg
+│      │      20 标准模板-销售订单 中文.jpg
+│      │      
+│      └─英文版截图
+│              01 Menu.jpg
+│              02 Parameters.jpg
+│              03 Parameters.jpg
+│              04 General journal.jpg
+│              05 Sales orders.jpg
+│              06 Global address book.jpg
+│              07 Extend fields for standard template.jpg
+│              08 User defined template.jpg
+│              09 User defined template - tables.jpg
+│              10 User defined template - fields.jpg
+│              11 User defined template - source type.jpg
+│              12 Import with user defined template.jpg
+│              13 Standard template - product.jpg
+│              14 Standard template - sales order.jpg
+│              15 Standard template -customer.jpg
+│              16 Generated user defined template.jpg
+│              17 Generated user defined template.jpg
+│              
+└─RDIT Project
+    │  model.txt
+    │  RapidDataImportToolkit_RDIT_R2_HuLuo.xpo
+    │  RDIT.axmodel
+    │  
+    └─Label
+            AxRDIen-gb.ald
+            AxRDIen-us.ald
+            AxRDIzh-hans.ald
+            
