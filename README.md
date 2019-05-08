@@ -1,5 +1,4 @@
-# RDIT_for_DAX
-Dynamics AX
+# Rapid Data Import Toolkit for Dynamics AX 2012 (RTM/R2/R3)
 
 
 此工具应用于企业AX 2012 R2/R3快速实施与上线 、各类业务数据的导入(销售订单、采购订单、会计日记账、盘点等等)、自定义数据的导入。
