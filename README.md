@@ -1,5 +1,7 @@
-<p>#Data Import&Export Toolkit for Dynamics AX 2012 (RTM/R2/R3)
-
+<p><h1>#Data Import&Export Toolkit for Dynamics AX 2012 (RTM/R2/R3)</h1></P>
+<p><h4>Email: rosechevalier#gmail.com</h4></P>
+<p><h4>Wechat: rosechevalier</h4></P>
+<hr>
 <p><h2>Master data #MD		</h2></p>
 <p><h3>Organization administration		</h3></p>
 <p>	Number sequences	01</p>
