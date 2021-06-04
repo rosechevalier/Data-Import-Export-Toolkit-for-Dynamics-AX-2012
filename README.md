@@ -1,64 +1,63 @@
-#Data Import&Export Toolkit for Dynamics AX 2012 (RTM/R2/R3)
+<p>#Data Import&Export Toolkit for Dynamics AX 2012 (RTM/R2/R3)
 
-Master data #MD		
-Organization administration		
-	Number sequences	01
-General ledger		
-	Chart of accounts	02
-	Financial dimension values	03
-	Currency exchange rates	04
-Fixed assets		
-	Fixed assets	05
-Sales and marketing		
-	Customers	06
-	Customers (without addit. info.)	07
-	Global address book	08
-	Price/discount	09
-Procurement and sourcing		
-	Vendors	10
-	Vendors (without addit. info.)	11
-	Global address book	12
-	Price/discount	13
-Product information management		
-	Products and product masters	14
-	Product attributes	15
-	Product variants	16
-	Product approved vendors	17
-	Product image	18
-Inventory and warehouse management		
-	Bills of materials	19
-Production control		
-	Routes	20
-Human resources		
-	Workers	21
-  
-Opening balance #OB		
-	Ledger account balance	22
-	Fixed assets balance	23
-	Bank account balance	24
-	Inventory balance	25
-	Open vendor invoices	26
-	Open customer invoices	27
-	Open sales orders	28 , import,post
-	Open purchase orders	29 , import,post
-	Open production orders	30
-  
-Business #BUS		
-	General journal	31
-	Sales orders	32 , import,post,create payment journal
-	Sales orders (post only)	33 , post,create payment journal
-	Purchase orders	34 , import,post,create payment journal
-	Purchase orders (post only)	35 , post,create payment journal
-	Free text invoices	36
-	Invoice journal	37
-	Payment journal (AR)	38
-	Payment journal (AP)	39
-	Production orders	40
-	Item movement	41
-	Item counting	42
-  
-Extend #EXT	
-   Extend for standard template / User defined template	
-	(Support join/RecId/Update/Lookup/Dimension)	
+<p><h2>Master data #MD		</h2></p>
+<p>Organization administration		</p>
+<p>	Number sequences	01</p>
+<p>General ledger	</p>	
+<p>	Chart of accounts	02</p>
+<p>	Financial dimension values	03</p>
+<p>	Currency exchange rates	04</p>
+<p>Fixed assets		</p>
+<p>	Fixed assets	05</p>
+<p>Sales and marketing		</p>
+<p>	Customers	06</p>
+<p>	Customers (without addit. info.)	07</p>
+<p>	Global address book	08</p>
+<p>	Price/discount	09</p>
+<p>Procurement and sourcing		</p>
+<p>	Vendors	10</p>
+<p>	Vendors (without addit. info.)	11</p>
+<p>	Global address book	12</p>
+<p>	Price/discount	13</p>
+<p>Product information management	</p>	
+<p>	Products and product masters	14</p>
+<p>	Product attributes	15</p>
+<p>	Product variants	16</p>
+<p>	Product approved vendors	17</p>
+<p>	Product image	18</p>
+<p>Inventory and warehouse management	</p>	
+<p>	Bills of materials	19</p>
+<p>Production control		</p>
+<p>	Routes	20</p>
+<p>Human resources		</p>
+<p>	Workers	21</p>
+<p>  </p>
+<p><h2>Opening balance #OB		</h2></p>
+<p>	Ledger account balance	22</p>
+<p>	Fixed assets balance	23</p>
+<p>	Bank account balance	24</p>
+<p>	Inventory balance	25</p>
+<p>	Open vendor invoices	26</p>
+<p>	Open customer invoices	27</p>
+<p>	Open sales orders	28 , import,post</p>
+<p>	Open purchase orders	29 , import,post</p>
+<p>	Open production orders	30</p>
 
+<p><h2>Business #BUS		</h2></p>
+<p>	General journal	31</p>
+<p>	Sales orders	32 , import,post,create payment journal</p>
+<p>	Sales orders (post only)	33 , post,create payment journal</p>
+<p>	Purchase orders	34 , import,post,create payment journal</p>
+<p>	Purchase orders (post only)	35 , post,create payment journal</p>
+<p>	Free text invoices	36</p>
+<p>	Invoice journal	37</p>
+<p>	Payment journal (AR)	38</p>
+<p>	Payment journal (AP)	39</p>
+<p>	Production orders	40</p>
+<p>	Item movement	41</p>
+<p>	Item counting	42</p>
+  
+<p><h2>Extend #EXT	</h2></p>
+<p>   Extend for standard template / User defined template	</p>
+<p>	(Support join/RecId/Update/Lookup/Dimension)	</p>
 
