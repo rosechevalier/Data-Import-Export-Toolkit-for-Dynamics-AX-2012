@@ -1,20 +1,64 @@
-# Rapid Data Import Toolkit for Dynamics AX 2012 (RTM/R2/R3)
+#Data Import&Export Toolkit for Dynamics AX 2012 (RTM/R2/R3)
+
+Master data #MD		
+Organization administration		
+	Number sequences	01
+General ledger		
+	Chart of accounts	02
+	Financial dimension values	03
+	Currency exchange rates	04
+Fixed assets		
+	Fixed assets	05
+Sales and marketing		
+	Customers	06
+	Customers (without addit. info.)	07
+	Global address book	08
+	Price/discount	09
+Procurement and sourcing		
+	Vendors	10
+	Vendors (without addit. info.)	11
+	Global address book	12
+	Price/discount	13
+Product information management		
+	Products and product masters	14
+	Product attributes	15
+	Product variants	16
+	Product approved vendors	17
+	Product image	18
+Inventory and warehouse management		
+	Bills of materials	19
+Production control		
+	Routes	20
+Human resources		
+	Workers	21
+  
+Opening balance #OB		
+	Ledger account balance	22
+	Fixed assets balance	23
+	Bank account balance	24
+	Inventory balance	25
+	Open vendor invoices	26
+	Open customer invoices	27
+	Open sales orders	28 , import,post
+	Open purchase orders	29 , import,post
+	Open production orders	30
+  
+Business #BUS		
+	General journal	31
+	Sales orders	32 , import,post,create payment journal
+	Sales orders (post only)	33 , post,create payment journal
+	Purchase orders	34 , import,post,create payment journal
+	Purchase orders (post only)	35 , post,create payment journal
+	Free text invoices	36
+	Invoice journal	37
+	Payment journal (AR)	38
+	Payment journal (AP)	39
+	Production orders	40
+	Item movement	41
+	Item counting	42
+  
+Extend #EXT	
+   Extend for standard template / User defined template	
+	(Support join/RecId/Update/Lookup/Dimension)	
 
 
-此工具应用于企业AX 2012 R2/R3快速实施与上线 、各类业务数据的导入(销售订单、采购订单、会计日记账、盘点等等)、自定义数据的导入。
-
-实例：
-
-1.从AX2.5升级为AX 2012 R2,由于过旧版本升级到新版本难度很大，一般再次初始化为最快最有效方法。
-2.从用友、金蝶升级为AX 2012 R2,由于ERP系统本身的相异性，使用DI方式进行转换难度过大，使用RDIT能快速完成数据转换。
-3.企业初次上AX 2012 R2，由于RDIT提供中英文模板，能够快速的从终端用户处获得数据，因此能够更有效率的完成数据收集与导入。
-
-亮点功能：
-*提供AX 2012 R2/R3的配置流程，按步骤进行即可完成常用模块的上线。
-*支持多表关联信息导入。包括主表与副表，否则后期也得花很多时间再次维护。
-*提供中英文标准模板，不需要过多设置即可完成快速上线。
-*提供标准模板扩展功能。
-*提供用户自定义模板完成特殊的导入过程，支持表间RecId赋值，支持各类维度直接输入（财务维度、库存维度），支持已有记录的更新。
-*支持采购订单、销售订单等交易信息过账。
-*支持Excel、纯文本导入。
-*支持事务级导入，在出现任何错误时均会撤消之前操作。
