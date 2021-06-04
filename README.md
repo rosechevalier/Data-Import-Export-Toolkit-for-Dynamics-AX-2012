@@ -1,35 +1,35 @@
 <p>#Data Import&Export Toolkit for Dynamics AX 2012 (RTM/R2/R3)
 
 <p><h2>Master data #MD		</h2></p>
-<p>Organization administration		</p>
+<p><h3>Organization administration		</h3></p>
 <p>	Number sequences	01</p>
-<p>General ledger	</p>	
+<p><h3>General ledger	</h3></p>	
 <p>	Chart of accounts	02</p>
 <p>	Financial dimension values	03</p>
 <p>	Currency exchange rates	04</p>
-<p>Fixed assets		</p>
+<p><h3>Fixed assets		</h3></p>
 <p>	Fixed assets	05</p>
-<p>Sales and marketing		</p>
+<p><h3>Sales and marketing		</h3></p>
 <p>	Customers	06</p>
 <p>	Customers (without addit. info.)	07</p>
 <p>	Global address book	08</p>
 <p>	Price/discount	09</p>
-<p>Procurement and sourcing		</p>
+<p><h3>Procurement and sourcing		</h3></p>
 <p>	Vendors	10</p>
 <p>	Vendors (without addit. info.)	11</p>
 <p>	Global address book	12</p>
 <p>	Price/discount	13</p>
-<p>Product information management	</p>	
+<p><h3>Product information management	</h3></p>	
 <p>	Products and product masters	14</p>
 <p>	Product attributes	15</p>
 <p>	Product variants	16</p>
 <p>	Product approved vendors	17</p>
 <p>	Product image	18</p>
-<p>Inventory and warehouse management	</p>	
+<p><h3>Inventory and warehouse management	</h3></p>	
 <p>	Bills of materials	19</p>
-<p>Production control		</p>
+<p><h3>Production control		</h3></p>
 <p>	Routes	20</p>
-<p>Human resources		</p>
+<p><h3>Human resources		</h3></p>
 <p>	Workers	21</p>
 <p>  </p>
 <p><h2>Opening balance #OB		</h2></p>
